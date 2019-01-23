@@ -4,17 +4,19 @@
 
 @import 'vanilla-framework/scss/build';
 
-@import 'patterns_navigation';
-@include jp-p-navigation;
-
-@import 'patterns_pull-quotes';
-@include jp-p-pull-quotes;
-
-@import 'patterns_hero';
-@include jp-p-hero;
-
+@import 'pattern_pie-chart';
 @import 'patterns_cloud-tools';
+@import 'patterns_contextual-footer';
+@import 'patterns_hero';
+@import 'patterns_navigation';
+@import 'patterns_pull-quotes';
+
 @include jp-p-cloud-tools;
+@include jp-p-contextual-footer;
+@include jp-p-hero;
+@include jp-p-navigation;
+@include jp-p-pie-chart;
+@include jp-p-pull-quotes;
 
 .u-align--center h1,
 .u-align--center h2,
